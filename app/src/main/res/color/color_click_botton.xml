@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    Không chọn màu icon bottom thì màu trắng-->
+    <item android:color="#d2d2d2" android:state_checked="false" />
+    <!--    Chọn màu icon bottom thì màu đỏ-->
+    <item android:color="@color/white" android:state_checked="true" />
+
+</selector>

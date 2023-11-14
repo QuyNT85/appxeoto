@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#012169"
+            android:elevation="10dp"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@color/color_click_botton"
+            app:itemTextColor="@color/color_click_botton"
+            app:menu="@menu/menu_bottom">
+
+            <!--            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--                style="?attr/actionButtonStyle"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="120dp"-->
+            <!--                android:clipToPadding="false"-->
+            <!--                android:focusable="true">-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/cart_badge"-->
+            <!--                    android:layout_width="30dp"-->
+            <!--                    android:layout_height="30dp"-->
+            <!--                    android:layout_gravity="right|end|top"-->
+            <!--                    android:layout_marginTop="5dp"-->
+            <!--                    android:layout_marginEnd="-5dp"-->
+            <!--                    android:layout_marginRight="-5dp"-->
+            <!--                    android:background="@drawable/badge"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:padding="2dp"-->
+            <!--                    android:text="0"-->
+            <!--                    android:textColor="@android:color/white"-->
+            <!--                    android:textSize="20sp" />-->
+
+<!--            </FrameLayout>-->
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+</LinearLayout>

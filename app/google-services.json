@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378324214443",
+    "project_id": "doanbanxe",
+    "storage_bucket": "doanbanxe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378324214443:android:0b028a88e17f938cba4dee",
+        "android_client_info": {
+          "package_name": "com.example.otomarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378324214443-hb71kg1vb74obn02484ejamhrtqllqr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB8XHOMme4Cs-HMEuoeONR_odXLNbNRRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378324214443-gnbkd64mv6r47o7bcbqb9gce2nhlkt5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
